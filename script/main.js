@@ -28,8 +28,7 @@ leftMenu.addEventListener('click', event => {
 	}
 });
 
-// tv-card__img
-
+// ДЗ 1-День
 this.addEventListener('mouseover', event => {
 	const target = event.target; 
 	const newImg = target.dataset.backdrop;  
@@ -38,17 +37,3 @@ this.addEventListener('mouseover', event => {
 	this.addEventListener('mouseout', event => target.src = oldImg);
 });
 
-
-// this.addEventListener('mouseover', event => {
-// 	const target = event.target;
-// 	const atr = target.getAttribute('data-backdrop');
-// 	const atrSrc = target.getAttribute('src');
-// 	target.src = atr;
-// });
-// this.romoveEventListener('mouseleave', over)
-// this.addEventListener('mouseout', event => {
-// 	const target = event.target;
-// 	const atr = target.getAttribute('data-backdrop');
-// 	const atrSrc = target.getAttribute('src');
-// 	target.src = atrSrc;
-// });
