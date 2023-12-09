@@ -28,7 +28,6 @@ leftMenu.addEventListener('click', event => {
 	}
 });
 
-// ДЗ 1-День
 this.addEventListener('mouseover', event => {
 	const target = event.target; 
 	const newImg = target.dataset.backdrop;  
